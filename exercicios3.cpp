@@ -1,6 +1,7 @@
 #include <iostream>
 
-using namespace std
+
+using namespace std;
 int main(){
 
     char letra[5];
@@ -8,7 +9,7 @@ int main(){
     cout << "Digite uma letra: ";
     cin >> letra;
 
-    if(letra[0] == "a" || "e" || "i" || "o" || "u"){
+    if(letra == "a" || "e" || "i" || "o" || "u"){
        
        cout << "A letra digita é uma vogal." << std::endl;
     } else {
